@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useRef, useEffect } from "react";
 import { generatePixPayload } from "@/lib/pix";
 import { generatePDF, generateExcel } from "@/lib/export";
